@@ -12,4 +12,14 @@ class ApplicationController < ActionController::Base
 
     :thisisareallylonglinetoseeifrubocoporanythingisrunninghelloareyououtherewhatisgoingonfjkdajkfldsajfkdlsajfkdlsajfkdlsajfkdslafjdksaljfkdsla
   end
+
+  def more_shitty_code
+    {
+      :this => :is,
+      :old => :ruby,
+      and: :inconsistent
+    }
+
+    :thisisareallylonglinetoseeifrubocoporanythingisrunninghelloareyououtherewhatisgoingonfjkdajkfldsajfkdlsajfkdlsajfkdlsajfkdslafjdksaljfkdsla
+  end
 end
