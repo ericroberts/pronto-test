@@ -18,4 +18,12 @@ class ApplicationController < ActionController::Base
       puts "stuff n things"
     end
   end
+
+  def more_shitty_code
+    if false
+      puts "yo"
+    else
+          puts "no"
+    end
+  end
 end
