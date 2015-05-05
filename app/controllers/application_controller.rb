@@ -19,11 +19,19 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def more_shitty_code
-    if false
-      puts "yo"
+  def this_is_really_bad_code2
+    this_is_a_really_long_line_this_is_a_really_long_line_this_is_a_really_long_line = "12345"
+      stuff = "blah"
+    if stuff
+      if this_is_a_really_long_line_this_is_a_really_long_line_this_is_a_really_long_line
+        puts "hello"
+      elsif false
+        puts "woah"
+      else
+        puts "hello"
+      end
     else
-          puts "no"
+      puts "stuff n things"
     end
   end
 end
